@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+}
+
+.conatiner{
+    max-width: 1000px;
+    margin: auto;
+    padding:0 2rem;
+    overflow: hidden;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding-top: 1rem;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px blue;
+    text-decoration-style: wavy;
+color: rgb(2, 51, 21);
+font-weight: 700;
+font-size: 3rem;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+
+  p{
+      font-size:2rem;
+      font-weight: bold;
+  }
